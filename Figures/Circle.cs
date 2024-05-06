@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace FiguresLibrary.Figures
 {
+    //Фигура с её величинами и методом расчета её площади
     public class Circle:IFigure
     {
         public double Radius { get; set; }

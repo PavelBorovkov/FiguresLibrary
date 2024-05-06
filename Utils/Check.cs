@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace FiguresLibrary.Utils
 {
+    //абстрактный класс проверок, содержащий методы для проверок различных свойств у фигур
+    //например метод проверяющий треугольник на прямоугольность
     public static class Check
     {
         public static bool CheckTriangle(Triangle triangle)
